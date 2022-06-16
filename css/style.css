@@ -1,0 +1,212 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: rgb(133, 133, 133) !important ;
+}
+
+h1,h2,p {
+    font-family: 'Lora', serif;
+    font-weight: bold;
+}
+
+/* ORTAK ALANLAR */
+.container{
+    width: 1200px;
+    height: auto;
+    border: 5px solid rgb(212, 209, 18);
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+
+nav{
+    width: 1200px;
+    height: 100px;
+    display: flex;
+    justify-content: space-between;
+    background-color: #000;
+}
+
+nav h1{
+    font-size: 50px;
+    margin-top: 20px;
+    margin-left: 10px;
+    color: #fff;
+}
+
+nav span{
+    color: rgb(212, 209, 18);
+}
+
+nav ul{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+nav li{
+    display: inline-block;
+}
+
+nav a{
+    padding: 5px;
+    display: block;
+    text-decoration: none;
+    width: 100px;
+    color: #000;
+    margin-right: 10px;
+    margin-top: 50px;
+    font-size: 18px;
+    text-align: center;
+    background-color: rgb(212, 209, 18);
+}
+
+nav a:hover{
+    background-color: #fff;
+}
+
+footer{
+    width: 1140px;
+    height: 100px;
+    display: flex;
+    justify-content: space-between;
+    padding: 30px;
+    background-color: #000;
+    color: #fff;
+}
+
+footer p{
+    width: 400px;
+    
+}
+
+footer ul{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+footer a{
+    text-decoration: none;
+    display: block;
+    font-size: 16px;
+    color: rgb(212, 209, 18);
+}
+
+.left{
+    width: 600px;
+}
+
+.right{
+    margin-right: 50px;
+}
+
+.right a{
+    font-size: 20px;
+    color: rgb(212, 209, 18);
+}
+
+/* CONTENT */
+
+.content{
+    width: 1200px;
+    height: auto;
+}
+
+.slogan{
+    margin-top: 20px;
+    margin-left: 150px;
+   
+}
+
+.slogan i{
+    color: rgb(212, 209, 18);
+}
+
+.kapsayici{
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-around;
+}
+
+
+.kutu{
+    border: 3px rgb(212, 209, 18) solid;
+    padding: 20px;
+    text-align: center;
+    line-height: 25px;
+    height: 300px;
+
+}
+
+.kutu i{
+    font-size: 50px;
+}
+
+.kutu i,h2{
+    color: rgb(212, 209, 18);
+}
+
+/* ARABALAR SAYFASI */
+
+.galeri{
+    width: 1200px;
+    height: auto;
+    /* display: flex; */
+}
+
+
+.bolum{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+.araba{
+    border: 5px solid rgb(212, 209, 18);
+    text-align: center;
+}
+
+.araba img{
+    width: 300px;
+    height: auto;
+}
+
+
+/* HAKKIMIZDA SAYFASI */
+
+.yazi{
+    padding: 20px;
+    text-align: center;
+}
+
+.yazi h2{
+    background-color: #000;
+    color: rgb(231, 240, 110);
+}
+
+
+/* İLETİŞİM SAYFASI */
+
+.iletisim{
+    width: 1200px;
+    display: flex;
+    justify-content: space-around;
+    padding: 50px;
+}
+
+form label{
+    font-weight: bold;
+    color: rgb(231, 240, 110);
+}
+
+.buton{
+    background-color: #000;
+    color: rgb(231, 240, 110);
+    border: none;
+    padding: 5px;
+}
+
+.map{
+    margin-right: 50px;
+}

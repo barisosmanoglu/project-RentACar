@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rent A Car</title>
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,500;1,500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+
+    
+	<link rel="shortcut icon" href="images/favicon.ico">
+	<link href="css/styles.css" type="text/css" media="all" rel="stylesheet" />
+	<link href="css/skitter.styles.css" type="text/css" media="all" rel="stylesheet" />
+	<link href="css/highlight.black.css" type="text/css" media="all" rel="stylesheet" />
+	<link href="css/sexy-bookmarks-style.css" type="text/css" media="all" rel="stylesheet" />
+
+</head>
+<body>
+    
+
+    <div class="container">
+         <nav>
+             <div class="logo">
+                 <h1> <span><i class="fas fa-car-alt"></i> </span>  Rent A Car</h1>
+             </div>
+             <div class="menu">
+                 <ul>
+                     <li><a href="index.html">Anasayfa</a></li>
+                     <li><a href="cars.html">Araçlar</a></li>
+                     <li><a href="about-us.html">Hakkımızda</a></li>
+                     <li><a href="contact.html">İletişim</a></li>
+                 </ul>
+             </div>
+         </nav>
+           
+
+         <div id="content">
+            <div class="border_box">
+                <div class="box_skitter box_skitter_large">
+                    <ul>
+                        <li><a href=""><img src="images/001.jpg" class="cube" /></a><div class="label_text"><p>Renault Megane HB</p></div></li>
+                        <li><a href="#cubeRandom"><img src="images/002.jpg" class="cubeRandom" /></a><div class="label_text"><p>Maserati</p></div></li>
+                        <li><a href="#block"><img src="images/003.jpg" class="block" /></a><div class="label_text"><p>Nissan Skyline GTR</p></div></li>
+                        				
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+
+         <div class="content">
+             <h1 class="slogan">
+                <i class="fas fa-truck"></i>
+                 ARADIĞINIZ ARACI DÜNYANIN HER YERİNDE KİRALAYIN
+                 <i class="fas fa-car-side"></i>
+                </h1>
+               <div class="kapsayici">
+                <div class="kutu">
+                   <i class="fas fa-map-marked-alt"></i>
+                   <h2>Kiralama Noktaları</h2>
+                   <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam quaerat provident dicta perferendis optio. Commodi alias quis amet magni dolorum inventore deserunt officiis nobis quia necessitatibus labore nemo explicabo sequi, iusto in voluptates itaque consequuntur beatae soluta distinctio omnis esse enim fugit. Magni, quia. Accusamus perspiciatis veritatis omnis animi vitae?</p>
+                </div>
+                <div class="kutu">
+                   <i class="fas fa-car-alt"></i>
+                   <h2>Araç Filomuz</h2>
+                   <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam quaerat provident dicta perferendis optio. Commodi alias quis amet magni dolorum inventore deserunt officiis nobis quia necessitatibus labore nemo explicabo sequi, iusto in voluptates itaque consequuntur beatae soluta distinctio omnis esse enim fugit. Magni, quia. Accusamus perspiciatis veritatis omnis animi vitae?</p>
+                </div>
+                <div class="kutu">
+                   <i class="fas fa-shopping-cart"></i>
+                   <h2>Online Ödelemerde indirim</h2>
+                   <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam quaerat provident dicta perferendis optio. Commodi alias quis amet magni dolorum inventore deserunt officiis nobis quia necessitatibus labore nemo explicabo sequi, iusto in voluptates itaque consequuntur beatae soluta distinctio omnis esse enim fugit. Magni, quia. Accusamus perspiciatis veritatis omnis animi vitae?</p>
+                </div>
+            </div>
+         </div>
+
+         <footer>
+             <div class="left">
+                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime, id cum amet repellat optio rerum, distinctio, quasi totam ratione reprehenderit vel soluta eius placeat. Voluptatibus aliquam reprehenderit culpa iure consequuntur.
+             </div>
+             <div class="right">
+                 <ul>
+                     <li><a href="#">Araç Filomuz</a></li>
+                     <li><a href="#">Araç Kiralama</a></li>
+                     <li><a href="#"><i class="fab fa-cc-visa"></i></a></li>
+                     <li><a href="#"><i class="fab fa-cc-mastercard"></i></a></li>
+                 </ul>
+             </div>
+         </footer>
+    </div>
+
+
+
+
+
+    <script src="js/jquery-1.6.3.min.js"></script>
+	<script src="js/jquery.easing.1.3.js"></script>
+	<script src="js/jquery.animate-colors-min.js"></script>
+	
+	<script src="js/jquery.skitter.min.js"></script>
+	<script src="js/highlight.js"></script>
+	<script src="js/sexy-bookmarks-public.js"></script>
+	
+	<script>
+	$(document).ready(function() {
+		
+		var options = {};
+	
+		if (document.location.search) {
+			var array = document.location.search.split('=');
+			var param = array[0].replace('?', '');
+			var value = array[1];
+			
+			if (param == 'animation') {
+				options.animation = value;
+			}
+			else if (param == 'type_navigation') {
+				if (value == 'dots_preview') {
+					$('.border_box').css({'marginBottom': '40px'});
+					options['dots'] = true;
+					options['preview'] = true;
+				}
+				else {
+					options[value] = true;
+					if (value == 'dots') $('.border_box').css({'marginBottom': '40px'});
+				}
+			}
+		}
+		
+		$('.box_skitter_large').skitter(options);
+		
+		// Highlight
+		$('pre.code').highlight({source:1, zebra:1, indent:'space', list:'ol'});
+		
+	});
+	</script>
+
+
+</body>
+</html>
